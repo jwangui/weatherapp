@@ -1,0 +1,108 @@
+/*control shift z, c to see mobile*/
+html{
+    background: url(./weatherapp2.jpg); /*Photo by CHUTTERSNAP on UNSPLASH*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+.app{
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.3));
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    width: 100%;
+    
+}
+
+
+h1{
+    text-align: center;
+    padding-top: 25px;
+    margin-bottom: 20px;
+    color: #0685ac ;
+    
+    font-size: 50px;
+    letter-spacing: 0.02em;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 15px 15px;
+    margin-bottom: 20gpx;
+}
+
+header input{
+    width: 100%;
+    max-width: 280px;
+    padding: 10px 15px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    color: #313131;
+    font-size: 15px;
+    font-weight: 300;
+    transition: 0.3 ease-out;
+}
+
+header input:focus{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.search-button{
+    margin-left: 5px;
+    color: #313131;
+    background-color: rgba(255, 255, 255, 0.5);
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 80px;
+}
+
+.search-button:hover{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 25px 25px 50px;
+}
+
+.location .city{
+    color: #FFFFFF;
+    text-shadow: 1px 3px 3px #1b1b1b;
+    font-size: 38px;
+    font-weight: 600;
+    margin-bottom: 5px;
+    letter-spacing: 0.03em;
+}
+
+.location .date{
+    color: #222222;
+    font-size: 20px;
+}
+
+.current .temp{
+    color: white;
+    font-size: 90px;
+    font-weight: 900;
+    text-shadow: 1px 4px rgba(0, 0, 0, 0.5);
+}
+
+.current .temp span{
+    font-weight: 500;
+}
+
+.current .weather{
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    text-shadow: 0px 2px rgba(0, 0, 0, 0.3);
+}
